@@ -1,6 +1,6 @@
 # GT7 Race Automation
 
-The `main.py` script allows you to automate racing circular tracks using pyautogui and PS Remote Play. NOTE: The track hust have unidirectional turns, meaning every turn should be either left or right. I think the script should work on any platform.
+The `main.py` script allows you to automate racing circular tracks using pyautogui and PS Remote Play. NOTE: The track must have unidirectional turns, meaning every turn should be either left or right. I think the script should work on any platform.
 
 ## Instructions
 
