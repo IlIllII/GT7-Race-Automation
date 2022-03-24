@@ -31,6 +31,12 @@ Another command that does the same thing:
 py main.py -left 120
 ```
 
+### Controller settings
+It is necessary to map acceleration as well as left and right steering to the d-pad.
+### In-game settings
+- enable traction control
+- decrease opponents strength in the top-left menu 'options' (will not affect prize money)
+
 ## Notes
 
 Right now the script simply navigates through the menus for standard races and runs a race based on timing, meaning if you spin out or something the timing will likely be off.
