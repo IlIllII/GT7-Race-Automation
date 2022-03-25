@@ -1,6 +1,6 @@
 # GT7 Race Automation
 
-The `main.py` script allows you to automate racing circular tracks using pyautogui and PS Remote Play. NOTE: The track must have unidirectional turns, meaning every turn should be either left or right. I think the script should work on any platform.
+The `main.py` script allows you to automate racing circular tracks using PyAutoGUI and PS Remote Play. NOTE: The track must have unidirectional turns, meaning every turn should be either left or right. I think the script should work on any platform.
 
 ## Instructions
 
@@ -30,6 +30,12 @@ Another command that does the same thing:
 ```bash
 py main.py -left 120
 ```
+
+### Controller settings
+It is necessary to map acceleration as well as left and right steering to the d-pad.
+### In-game settings
+- enable traction control
+- decrease opponents strength in the top-left menu 'options' (will not affect prize money)
 
 ## Notes
 
