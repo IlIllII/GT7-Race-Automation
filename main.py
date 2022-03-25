@@ -59,12 +59,6 @@ def end_race() -> None:
         "enter",
         "right",
         "enter",
-        "down",
-        "down",
-        "down",
-        "left",
-        "left",
-        "enter",
     ]
     for command in commands:
         press(command)
@@ -84,21 +78,14 @@ def start_race(first: bool) -> None:
         pyautogui.click()
         time.sleep(1)
 
-        # This is the button sequence you press when the 'replay'
-        # button IS NOT visible on the race start screen.
+        # This button sequence will click 'race' regardless of where
+        # the cursor starts
         press("down")
         press("down")
         press("down")
         press("left")
         press("enter")
     else:
-        # This is the button sequence you press when the 'replay'
-        # button IS visible on the race start screen.
-        press("down")
-        press("down")
-        press("down")
-        press("left")
-        press("left")
         press("enter")
 
 
